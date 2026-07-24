@@ -1,0 +1,45 @@
+{
+  "name": "react.dev",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "dev": "parcel index.html"
+  },
+  "dependencies": {
+    "approve": "^0.0.12",
+    "msgpackr-extract": "^3.0.4",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "react-scripts": "^0.0.0",
+    "scripts": "^0.1.0"
+  },
+  "overrides": {
+    "underscore": "1.13.8"
+  },
+  "allowScripts": {
+    "core-js-pure@3.49.0": true,
+    "core-js@3.49.0": true,
+    "@parcel/watcher@2.6.0": true,
+    "@swc/core@1.15.46": true,
+    "lmdb@2.8.5": true
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.5",
+    "parcel": "^2.16.4"
+  }
+}
